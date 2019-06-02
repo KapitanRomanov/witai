@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+	color: #fff;
+	
+	background: rgb(145, 183, 162);
+}
+@font-face{
+	font-family: 'Schoolbell-Regular';
+	src:
+	url("font/Schoolbell-Regular.ttf")
+	format('opentype');
+}
+.ul{
+	text-align: left !important;
+}
+.ul:hover{
+	color:black;
+}
+.navbar{
+	background-color: rgb(249, 179, 109) !important;
+}
+.navbar-brand:hover{
+	color: #F00 !important;
+}
+h2{
+	color: #FF0000;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#staz{
+    text-align: center;
+}
+#banner{
+	width: 100%;
+	position: relative;
+	height: auto;
+}
+#nochange{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-brand{
+	margin-right: 0px;
+	padding-left: 0px;
+	color:red;
+	font-size: 26px;
+}
+#logo{
+	width: 70px;
+	height: 55px;
+	padding-right: 0px;
+
+}
+.font{
+	font-family: Schoolbell-Regular;
+}
+#home{
+	width: 100%;
+	text-align: center;
+}
+#wpisy{
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+}
+.stopka{
+		margin-top: 33px !important; 
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		padding-bottom: 15px !important;
+		padding-top: 15px !important;
+}
+.formField{
+	font: inherit;
+	border: 1px solid #ccc; 
+	border-radius: 3px; 
+	margin: 3px 0 10px 0; 
+	padding: 3px 0
+}
+textarea.formField{
+	width: 50%;
+	 height: 150px
+}
+#sendBtn{
+	cursor:pointer;
+	background: #ccc; 
+	border: 1px solid #f00; 
+	line-height: 32px; 
+	font-size: 14px;
+	padding: 0 25px; 
+	border-radius: 3px
+}
+#tabela{
+	width: 50%;
+	margin-left: 25%;
+	color:red;
+}
+.table td{
+	border-top: 1px solid #f00 !important;
+}
+.dane{
+	font-size: 23px;
+}
+.dane:hover{
+	color: black;
+}
+div {
+	clear: left;
+  }
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.text{
+	color: red;	
+	float: left;
+	margin-bottom: 72px;
+}
+.background-color{
+	opacity: 0;
+}
+.table-left{
+	padding-left: 17% !important;
+}
+.table-right{
+	margin-right: 25% !important;
+}
+.posts{
+	color:#F00;
+	float: left;
+}
+.zdj{
+	float: left;
+	width: 250px;
+	height:300px;
+	display: block;
+}
+.galery-img-holder {
+    overflow: hidden;
+}
+
+.galery-img-holder img {
+    transition: transform .5s ease-in-out;
+    padding: 0 !important;
+}
+  
+.galery-img-holder:hover img {
+    transform: scale(1.5) rotate(15deg);
+}
+.photo {
+	width: 200px;
+	height: 151.33px;
+}
+.wpis{
+	color:#F00;	
+	float: left;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+.formularz{
+	color:red;
+}
+.copyright{
+	background-color: rgb(249, 179, 109) !important;
+	color: red !important;
+}
